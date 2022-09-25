@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Earth Prodigy</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  
+<!-- partial:index.partial.html -->
+<div>
+  <video controls  id="vid" width="200" src="./assets/vid.mp4">
+  </video>
+  
+  <div id="quiz">
+    <div id="question">
+      <h1 id="question-prompt">Faucet is running and no one's there, so what would you do in this scenario?</h1>
+      <div class="answers">
+        <button class="answer" onclick="closedfaucet()" >close the faucet</button>
+        <button class="answer" onclick="showFeedback()">Ignore</button>
+      </div>
+    </div>
+    <h1 id="rightdecision" >Thats the right decision!!!</h1>
+    <div id="feedback">
+      <h1>Things to do for better practices:</h1>
+      <ul>
+        <li></li>
+        <li>Rest the helmet level on the head, not tilted.</li>
+        <li>Make sure the straps of the helmet form a “V” under the ears when buckled.</li>
+        <li>Have the strap underneath the chin fit comfortably snug.</li>
+        <li>Secure the helmet to the point that twisting and tugging cannot remove it.</li>
+      </ul>
+   
+      <h2>Helpful Hint:</h2>
+   
+      <p>When it is time to purchase a new helmet, let your children pick out their own; they will be more likely to wear them for every ride.</p>
+  
+      <button id="continue">Continue</button>
+      
+    </div>
+  </div>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+</body>
+</html>
