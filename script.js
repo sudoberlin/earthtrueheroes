@@ -51,7 +51,8 @@ function showQuiz() {
 function closedfaucet(){
 
     $('#rightdecision').show();
-    endQuiz();
+    // setTimeout(closedfaucet, 2000)
+    endQuiz()
 }
 
 // function submitAnswer() {
